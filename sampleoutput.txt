@@ -1,0 +1,181 @@
+The learned tree based on the training data is as below:
+|--ASCITES=true
+|--|--SPIDERS=true
+|--|--|--VARICES=true
+|--|--|--|--STEROID=true
+|--|--|--|--|--live,prob is 1     #38 instances
+|--|--|--|--STEROID=false
+|--|--|--|--|--SPLEENPALPABLE=true
+|--|--|--|--|--|--FIRMLIVER=true
+|--|--|--|--|--|--|--live,prob is 1     #16 instances
+|--|--|--|--|--|--FIRMLIVER=false
+|--|--|--|--|--|--|--BIGLIVER=true
+|--|--|--|--|--|--|--|--SGOT=true
+|--|--|--|--|--|--|--|--|--live,prob is 1     #3 instances
+|--|--|--|--|--|--|--|--SGOT=false
+|--|--|--|--|--|--|--|--|--FEMALE=true
+|--|--|--|--|--|--|--|--|--|--live,prob is 1     #2 instances
+|--|--|--|--|--|--|--|--|--FEMALE=false
+|--|--|--|--|--|--|--|--|--|--ANOREXIA=true
+|--|--|--|--|--|--|--|--|--|--|--die,prob is 1     #2 instances
+|--|--|--|--|--|--|--|--|--|--ANOREXIA=false
+|--|--|--|--|--|--|--|--|--|--|--live,prob is 1     #1 instances
+|--|--|--|--|--|--|--BIGLIVER=false
+|--|--|--|--|--|--|--|--live,prob is 1     #5 instances
+|--|--|--|--|--SPLEENPALPABLE=false
+|--|--|--|--|--|--ANOREXIA=true
+|--|--|--|--|--|--|--live,prob is 1     #2 instances
+|--|--|--|--|--|--ANOREXIA=false
+|--|--|--|--|--|--|--die,prob is 1     #1 instances
+|--|--|--VARICES=false
+|--|--|--|--die,prob is 1     #1 instances
+|--|--SPIDERS=false
+|--|--|--FIRMLIVER=true
+|--|--|--|--ANOREXIA=true
+|--|--|--|--|--SGOT=true
+|--|--|--|--|--|--live,prob is 1     #1 instances
+|--|--|--|--|--SGOT=false
+|--|--|--|--|--|--die,prob is 1     #3 instances
+|--|--|--|--ANOREXIA=false
+|--|--|--|--|--live,prob is 1     #2 instances
+|--|--|--FIRMLIVER=false
+|--|--|--|--SGOT=true
+|--|--|--|--|--BIGLIVER=true
+|--|--|--|--|--|--live,prob is 1     #5 instances
+|--|--|--|--|--BIGLIVER=false
+|--|--|--|--|--|--die,prob is 1     #3 instances
+|--|--|--|--SGOT=false
+|--|--|--|--|--live,prob is 1     #12 instances
+|--ASCITES=false
+|--|--BIGLIVER=true
+|--|--|--VARICES=true
+|--|--|--|--FIRMLIVER=true
+|--|--|--|--|--STEROID=true
+|--|--|--|--|--|--die,prob is 1     #3 instances
+|--|--|--|--|--STEROID=false
+|--|--|--|--|--|--BILIRUBIN=true
+|--|--|--|--|--|--|--live,prob is 1     #2 instances
+|--|--|--|--|--|--BILIRUBIN=false
+|--|--|--|--|--|--|--die,prob is 1     #1 instances
+|--|--|--|--FIRMLIVER=false
+|--|--|--|--|--live,prob is 1     #1 instances
+|--|--|--VARICES=false
+|--|--|--|--die,prob is 1     #7 instances
+|--|--BIGLIVER=false
+|--|--|--live,prob is 1     #1 instances
+The predicted result is as below:
+Test instance0 labeled Class:live predicted class:live
+Test instance1 labeled Class:die predicted class:die
+Test instance2 labeled Class:live predicted class:live
+Test instance3 labeled Class:live predicted class:live
+Test instance4 labeled Class:live predicted class:live
+Test instance5 labeled Class:live predicted class:live
+Test instance6 labeled Class:live predicted class:live
+Test instance7 labeled Class:live predicted class:live
+Test instance8 labeled Class:live predicted class:live
+Test instance9 labeled Class:live predicted class:live
+Test instance10 labeled Class:live predicted class:live
+Test instance11 labeled Class:live predicted class:live
+Test instance12 labeled Class:live predicted class:live
+Test instance13 labeled Class:die predicted class:die
+Test instance14 labeled Class:live predicted class:live
+Test instance15 labeled Class:live predicted class:live
+Test instance16 labeled Class:die predicted class:die
+Test instance17 labeled Class:live predicted class:live
+Test instance18 labeled Class:live predicted class:live
+Test instance19 labeled Class:live predicted class:live
+Test instance20 labeled Class:live predicted class:live
+Test instance21 labeled Class:live predicted class:live
+Test instance22 labeled Class:live predicted class:live
+Test instance23 labeled Class:die predicted class:die
+Test instance24 labeled Class:die predicted class:die
+Test instance25 labeled Class:live predicted class:live
+Test instance26 labeled Class:live predicted class:live
+Test instance27 labeled Class:live predicted class:live
+Test instance28 labeled Class:die predicted class:die
+Test instance29 labeled Class:live predicted class:live
+Test instance30 labeled Class:live predicted class:live
+Test instance31 labeled Class:live predicted class:live
+Test instance32 labeled Class:die predicted class:die
+Test instance33 labeled Class:live predicted class:live
+Test instance34 labeled Class:live predicted class:live
+Test instance35 labeled Class:die predicted class:die
+Test instance36 labeled Class:live predicted class:live
+Test instance37 labeled Class:die predicted class:die
+Test instance38 labeled Class:live predicted class:live
+Test instance39 labeled Class:live predicted class:live
+Test instance40 labeled Class:live predicted class:live
+Test instance41 labeled Class:live predicted class:live
+Test instance42 labeled Class:live predicted class:live
+Test instance43 labeled Class:live predicted class:live
+Test instance44 labeled Class:live predicted class:live
+Test instance45 labeled Class:live predicted class:live
+Test instance46 labeled Class:live predicted class:live
+Test instance47 labeled Class:live predicted class:live
+Test instance48 labeled Class:die predicted class:die
+Test instance49 labeled Class:die predicted class:die
+Test instance50 labeled Class:live predicted class:live
+Test instance51 labeled Class:live predicted class:live
+Test instance52 labeled Class:die predicted class:die
+Test instance53 labeled Class:live predicted class:live
+Test instance54 labeled Class:live predicted class:live
+Test instance55 labeled Class:die predicted class:die
+Test instance56 labeled Class:live predicted class:live
+Test instance57 labeled Class:live predicted class:live
+Test instance58 labeled Class:live predicted class:live
+Test instance59 labeled Class:live predicted class:live
+Test instance60 labeled Class:live predicted class:live
+Test instance61 labeled Class:live predicted class:live
+Test instance62 labeled Class:die predicted class:die
+Test instance63 labeled Class:live predicted class:live
+Test instance64 labeled Class:live predicted class:live
+Test instance65 labeled Class:live predicted class:live
+Test instance66 labeled Class:live predicted class:live
+Test instance67 labeled Class:live predicted class:live
+Test instance68 labeled Class:live predicted class:live
+Test instance69 labeled Class:live predicted class:live
+Test instance70 labeled Class:live predicted class:live
+Test instance71 labeled Class:live predicted class:live
+Test instance72 labeled Class:live predicted class:live
+Test instance73 labeled Class:live predicted class:live
+Test instance74 labeled Class:die predicted class:die
+Test instance75 labeled Class:die predicted class:die
+Test instance76 labeled Class:live predicted class:live
+Test instance77 labeled Class:live predicted class:live
+Test instance78 labeled Class:die predicted class:die
+Test instance79 labeled Class:live predicted class:live
+Test instance80 labeled Class:live predicted class:live
+Test instance81 labeled Class:live predicted class:live
+Test instance82 labeled Class:live predicted class:live
+Test instance83 labeled Class:live predicted class:live
+Test instance84 labeled Class:live predicted class:live
+Test instance85 labeled Class:die predicted class:die
+Test instance86 labeled Class:live predicted class:live
+Test instance87 labeled Class:live predicted class:live
+Test instance88 labeled Class:live predicted class:live
+Test instance89 labeled Class:live predicted class:live
+Test instance90 labeled Class:live predicted class:live
+Test instance91 labeled Class:live predicted class:live
+Test instance92 labeled Class:live predicted class:live
+Test instance93 labeled Class:live predicted class:live
+Test instance94 labeled Class:live predicted class:live
+Test instance95 labeled Class:die predicted class:die
+Test instance96 labeled Class:live predicted class:live
+Test instance97 labeled Class:live predicted class:live
+Test instance98 labeled Class:live predicted class:live
+Test instance99 labeled Class:live predicted class:live
+Test instance100 labeled Class:live predicted class:live
+Test instance101 labeled Class:live predicted class:live
+Test instance102 labeled Class:live predicted class:live
+Test instance103 labeled Class:die predicted class:die
+Test instance104 labeled Class:live predicted class:live
+Test instance105 labeled Class:die predicted class:die
+Test instance106 labeled Class:live predicted class:live
+Test instance107 labeled Class:live predicted class:live
+Test instance108 labeled Class:live predicted class:live
+Test instance109 labeled Class:live predicted class:live
+Test instance110 labeled Class:live predicted class:live
+Test instance111 labeled Class:live predicted class:live
+Prediction accuracy is: 100.0%
+Baseline predictor is: live, prob is 81.25%
+Baseline predictor accuracy  is: 81%
